@@ -10,15 +10,15 @@ export default
                     <span className="text-[24px] font-bold">Exclusive</span>
                     <span>
                         <ul className="flex justify-center items-center gap-3 text-[16px] font-normal ">
-                            <li>Home</li>
-                            <li>Contact</li>
-                            <li>About</li>
-                            <li>Sign Up</li>
+                            <li> <a href="">Home </a></li> 
+                            <li> <a href="">Contact</a></li>
+                            <li> <a href="">About</a></li>
+                            <li> <a href="">Sign Up</a></li>
                         </ul>
                     </span>
-                    <div>
-                        <input placeholder="What are you looking for?" className="text=3xl pl-2 pr-10"></input>
-
+                    <div className="flex gap-2 items-center justify-center">
+                        <input placeholder="What are you looking for?" className="text=2xl pl-2 pr-4 w-[13rem]"></input>
+                        <img src="search.png" className="w-[20px] h-[20px]"/>
                     </div>
                 </div>
             </div>
